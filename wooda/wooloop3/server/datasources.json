@@ -1,0 +1,8 @@
+{
+  "db": { "name": "db", "connector": "memory" },
+  "sqliteDS": {
+    "name": "sqliteDS",
+    "connector": "loopback-connector-sqlite3",
+    "file": "./datastore.sqlite3"
+  }
+}
